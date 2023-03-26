@@ -13,6 +13,8 @@ MonoBehaviour:
   m_Name: PatternProtego
   m_EditorClassIdentifier: 
   id: Protego
+  "da\xF1o": 0
+  cooldown: 1
   points: []
   gesture:
     lines:

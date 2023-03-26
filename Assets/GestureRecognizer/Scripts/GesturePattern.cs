@@ -13,7 +13,10 @@ namespace GestureRecognizer {
 	
 		public string id;
 
-		[System.Obsolete("'points' is deprecated, please use 'gesture' instead.")]
+        public int daño;
+        public float cooldown;
+
+        [System.Obsolete("'points' is deprecated, please use 'gesture' instead.")]
 		[HideInInspector]
 		[SerializeField]
 		public List<Vector2> points;
@@ -23,6 +26,10 @@ namespace GestureRecognizer {
 		public bool useLinesOrder;
 		public bool useLinesDirections;
 
-	}
+
+
+
+
+    }
 
 }

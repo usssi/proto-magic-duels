@@ -13,6 +13,8 @@ MonoBehaviour:
   m_Name: PatternIncendio
   m_EditorClassIdentifier: 
   id: Incendio
+  "da\xF1o": 50
+  cooldown: 8
   points: []
   gesture:
     lines:

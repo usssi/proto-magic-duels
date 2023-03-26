@@ -13,6 +13,8 @@ MonoBehaviour:
   m_Name: PatternConfringo
   m_EditorClassIdentifier: 
   id: Confringo
+  "da\xF1o": 25
+  cooldown: 10
   points: []
   gesture:
     lines:

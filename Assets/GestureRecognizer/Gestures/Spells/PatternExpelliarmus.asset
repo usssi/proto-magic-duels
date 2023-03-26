@@ -13,6 +13,8 @@ MonoBehaviour:
   m_Name: PatternExpelliarmus
   m_EditorClassIdentifier: 
   id: Expelliarmus
+  "da\xF1o": 20
+  cooldown: 10
   points: []
   gesture:
     lines:

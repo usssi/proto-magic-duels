@@ -13,6 +13,8 @@ MonoBehaviour:
   m_Name: PatternBombarda
   m_EditorClassIdentifier: 
   id: Bombarda
+  "da\xF1o": 35
+  cooldown: 15
   points: []
   gesture:
     lines:
@@ -21,5 +23,5 @@ MonoBehaviour:
       - {x: 0, y: 0.5}
       - {x: 1, y: 0.5}
       closedLine: 0
-  useLinesOrder: 1
+  useLinesOrder: 0
   useLinesDirections: 1
