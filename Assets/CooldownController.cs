@@ -24,7 +24,7 @@ public class CooldownController : MonoBehaviour
     public float recognizedScoreFloat;
 
     public string recognizedGestureId;
-    public int recognizedGestureDaño;
+    public int recognizedGestureDaÃ±o;
     public float recognizedGestureCooldown;
 
     public TextMeshProUGUI countdown1;
@@ -67,7 +67,7 @@ public class CooldownController : MonoBehaviour
             recognizedScoreFloat = recognizedGestureScore.score;
 
             recognizedGestureId = result.gesture.id;
-            recognizedGestureDaño = result.gesture.daño;
+            recognizedGestureDaÃ±o = result.gesture.daÃ±o;
             recognizedGestureCooldown = result.gesture.cooldown;
 
             ejecutarHechizo();
@@ -80,7 +80,7 @@ public class CooldownController : MonoBehaviour
             recognizedScoreFloat = 0;
 
             recognizedGestureId = "";
-            recognizedGestureDaño = 0;
+            recognizedGestureDaÃ±o = 0;
             recognizedGestureCooldown = 0;
         }
     }
@@ -89,7 +89,7 @@ public class CooldownController : MonoBehaviour
     {
         if (vidaEnemigo>0)
         {
-            vidaEnemigo -= recognizedGestureDaño;
+            vidaEnemigo -= recognizedGestureDaÃ±o;
             if (vidaEnemigo <= 0)
             {
                 vidaEnemigo = 100;
